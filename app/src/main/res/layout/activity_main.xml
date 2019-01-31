@@ -5,75 +5,47 @@
     android:id="@+id/RL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/gestureText"
-        android:layout_width="330dp"
-        android:layout_height="101dp"
-        android:autoSizeTextType="uniform"
-        android:background="@drawable/border"
-        android:text=""
-        android:textColor="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423" />
-
-    <TextView
-        android:id="@+id/texto1"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="#1171E5"
-        android:text="    Evento 2"
-        android:textColor="#FFF"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
 
     <Button
-        android:id="@+id/b1"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:id="@+id/button1"
+        android:layout_width="247dp"
+        android:layout_height="106dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#E52111"
+        android:background="@drawable/boton_redondo1"
         android:text="Evento 1"
-        android:textColor="#FFF"
-        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.244" />
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="123dp"
-        android:layout_height="65dp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="247dp"
+        android:layout_height="106dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        android:textSize="25dp"
+        android:background="@drawable/boton_redondo2"
+        android:text="Evento 2"
+        android:textColor="#fff"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.69" />
+
 
 
 </android.support.constraint.ConstraintLayout>
